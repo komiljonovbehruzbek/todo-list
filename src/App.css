@@ -1,4 +1,3 @@
-/* Umumiy stil */
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(to right, #6a11cb, #2575fc);
@@ -14,11 +13,13 @@ body {
 }
 
 .main-div {
+  max-height: 70%;
   background: white;
   padding: 20px;
   border-radius: 12px;
   width: 400px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  overflow-y: auto;
 }
 
 .title {
@@ -27,7 +28,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* Form styling */
 form {
   display: flex;
   gap: 10px;
@@ -59,7 +59,6 @@ form button:hover {
   background: #6a11cb;
 }
 
-/* List styling */
 .lists {
   list-style: none;
   margin-top: 20px;
@@ -88,7 +87,6 @@ form button:hover {
   transform: scale(1.2);
 }
 
-/* Media queries */
 @media (max-width: 500px) {
   .main-div {
     width: 90%;

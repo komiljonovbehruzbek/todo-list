@@ -9,7 +9,7 @@ function App() {
   const [input, setInput] = useState("")
 
   const addTodo = (e) => {
-    e.preventDefault() // Sahifa yangilanmasin
+    e.preventDefault()
     if (input.trim() === "") return
     setTodos([...todos, input])
     setInput("")
